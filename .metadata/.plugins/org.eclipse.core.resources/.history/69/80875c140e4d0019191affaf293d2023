@@ -1,0 +1,15 @@
+package Ô²µÄÃæ»ý;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double Pi = Math.atan(1)*4;
+		Scanner in = new Scanner(System.in);
+		int r = in.nextInt();
+		float s = (float) (Pi*r*r);
+		System.out.printf("%.7f",s);
+	}
+
+}
